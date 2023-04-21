@@ -1,0 +1,77 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+body{
+background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true');
+background-attachment: fixed;
+}
+nav{
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+    height: 40px;
+}
+hr{
+    background-color: #fff;
+    height: 30px;
+    width: 2px;
+}
+
+nav ul{
+    display: flex;
+    font-family: "Poppins";
+}
+nav ul li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-weight:200 ;
+    margin: 35px;
+    margin-left: 70px;
+}
+.small-button{
+    font-family: "Poppins";
+    color: white;
+    background: #ba0cc5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 100;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+h1{
+
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+p{
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 40px;
+}
+.big-button{
+    font-family: "Poppins";
+    color: white;
+    background: #ba0cc5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+}
